@@ -1,37 +1,58 @@
-# Airline Passenger Satisfaction Analysis
+# ✈️ Airline Passenger Satisfaction Analizi
 
-This project is a comprehensive data analysis of the [Airline Passenger Satisfaction Dataset](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction). The analysis includes statistical summaries, missing and outlier detection, and data visualization techniques using Python.
+## 📌 Proje Hakkında
+Bu proje, Airline Passenger Satisfaction veri seti üzerinde kapsamlı bir veri analizi çalışmasıdır. 
+Analiz; istatistiksel özet, eksik ve aykırı değerlerin tespiti, veri temizleme ve çeşitli görselleştirme tekniklerini içermektedir.
 
-## Project Overview
+## 🎯 Amaç
+Havayolu yolcu memnuniyetini etkileyen faktörleri keşfetmek, eksik ve aykırı verileri belirleyerek temizlemek, veri görselleştirme teknikleriyle içgörü üretmek.
 
-**Objective:** Analyze airline passenger satisfaction by exploring the data, identifying patterns, handling missing values and outliers, and creating visual insights.
+## 📁 Proje Dosya Yapısı
+├── README.md # Proje tanımı ve genel açıklamalar
 
-## Folder Structure
+├── Rapor.pdf # Detaylı analiz raporu (PDF formatında)
 
-```
-├── data/                 # Raw dataset (CSV file goes here)
-├── notebooks/            # Jupyter notebooks for analysis
-├── images/               # Saved plots and visualizations
-└── README.md             # Project overview and description
-```
+├── analysis.ipynb # Jupyter Notebook - tüm analiz süreci
 
-## Tasks Completed
+├── test.csv # Test veri seti
 
-- ✅ Dataset Selection & Overview
-- ✅ Statistical Summary (mean, median, std, min, max)
-- ✅ Missing Value Analysis and Handling
-- ✅ Outlier Detection using Boxplot and IQR
-- ✅ Visualizations: Histograms, Bar Charts, Scatterplots, Pie Charts
-- ✅ Final Notebook with analysis workflow
+├── train.csv # Eğitim veri seti
 
-## Tools Used
 
+> Veriler, Kaggle üzerindeki Airline Passenger Satisfaction dataset'inden alınmıştır.
+
+## ✅ Tamamlanan Görevler
+- [x] Veri Seti Seçimi & Genel Bakış
+- [x] İstatistiksel Özet (ortalama, medyan, std, min, max, çeyreklikler)
+- [x] Eksik Değer Analizi ve Doldurma Yöntemleri (Ortalama & Medyan)
+- [x] Aykırı Değer Tespiti (Boxplot & IQR, Z-Score)
+- [x] Sayısal & Kategorik Değişkenler için Görselleştirme (Histogram, Bar, Scatter, Pie)
+- [x] Final Notebook (Tüm analiz sürecini içeren Jupyter Notebook)
+- [x] Proje çıktısı olarak PDF rapor ve düzenli klasör yapısı oluşturuldu
+
+## 🛠️ Kullanılan Araçlar
 - Python
 - pandas
 - matplotlib
 - seaborn
 - Jupyter Notebook
 
-## Author
+## 👩‍💻 Hazırlayan
+Bu proje, **Kız Başına Veri Analizi Bootcamp** kapsamında hazırlanmıştır.
 
-Prepared as part of the Kız Başına Veri Analizi Bootcamp.
+---
+
+🔍 Daha fazla analiz için: `analysis.ipynb` dosyasını inceleyin veya `Rapor.pdf` üzerinden çıktı alın.
+
+📈 İleri düzey öneriler:
+- Sınıflandırma modelleri (Memnuniyet tahmini)
+- Segmentasyon
+- Korelasyon analizi
+- Regresyon ve zaman serisi analizi gibi veri bilimi adımları
+
+---
+
+**Teşekkürler! ✈️**
+
+Bu proje ile yolcu memnuniyetine etki eden değişkenleri keşfederek daha iyi hizmet stratejileri oluşturmak mümkün hale gelmiştir.
+
